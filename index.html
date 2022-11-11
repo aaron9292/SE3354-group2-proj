@@ -13,6 +13,20 @@
     <link rel="stylesheet" href="./style.css">
     <script src = "./script.js" defer> </script>
 
+
+    <style>
+        .container {
+          height: auto;
+          overflow: hidden;
+        }
+        .right, .left {
+          width: 200px;
+          float: left;
+          padding-left: 25px;
+          font-size: 20px;
+        }
+    </style>
+
 </head>
 <body> 
     <div>
@@ -31,16 +45,12 @@
                 <div class= "temp_min">Lowest: °F</div>
                 <div class= "temp_max">Highest: °F</div>
                 <div class= "feels_like">Feels like: °F</div>
-
                 <div class="humidity">Humidity: 60%</div>
                 <div class= "wind">Wind speed: 6.2 km'h</div>
-
-
                 <div class= "sunrise">sunrise:</div>
                 <div class= "sunset">sunset: </div>
-
                 <div class= "pressure">Pressure: </div>
-                <div class= "visibilty">Visibility: </div>   
+                <div class= "visibility">Visibility: </div>   
         </div>
     </div>
     <div class = "card">
@@ -66,14 +76,48 @@
         </div>
     </div>
     <div>
-        <a tabindex="2" class="testB">Weather Forecast</a>
+        <a tabindex="2" class="testB">7 day Forecast</a>
         <div class="hiddendiv" id="testB">
-            <div></div>
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+            <div class="four"></div>
+            <div class="five"></div>
+            <div class="six"></div>
+            <div class="seven"></div>
         </div>
     </div>
+    </div>
     <div>
-        <a tabindex="2" class="testB">Weather Alert</a>
-        <div class="hiddendiv" id="testB">Weather Alert</div>
+        <a tabindex="2" class="testB">24 Hour</a>
+        <div class="hiddendiv" id="testB">
+            <div class="container">
+                <div class="temp1 left"></div>
+                <div class="temp13 left"></div>
+                <div class="temp2 left"></div>
+                <div class="temp14 left"></div>
+                <div class="temp3 left"></div>
+                <div class="temp15 left"></div>
+                <div class="temp4 left"></div>
+                <div class="temp16 left"></div>
+                <div class="temp5 left"></div>
+                <div class="temp17 left"></div>
+                <div class="temp6 left"></div>
+                <div class="temp18 right"></div>
+                <div class="temp7 right"></div>
+                <div class="temp19 right"></div>
+                <div class="temp8 right"></div>
+                <div class="temp20 right"></div>
+                <div class="temp9 right"></div>
+                <div class="temp21 right"></div>
+                <div class="temp10 right"></div>
+                <div class="temp22 right"></div>
+                <div class="temp11 right"></div>
+                <div class="temp23 right"></div>
+                <div class="temp12 right"></div>
+                <div class="temp24 right"></div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
